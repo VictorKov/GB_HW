@@ -18,11 +18,11 @@ public class Main {
             }
         }
 
-        int sum = 0;
+        int sumer = 0;
 
         try {
-           sum =  method(arr);
-            System.out.println("Сумма всех элементов равна " + sum);
+           sumer =  method(arr);
+            System.out.println("Сумма всех элементов равна " + sumer);
         } catch (MyArraySizeException | MyArrayDataException e) {
             e.printStackTrace();
 
